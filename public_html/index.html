@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Robótica Prática</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo">
+        <span class="logo__icon">⚙</span>
+        <span>Robótica <strong>Prática</strong></span>
+      </a>
+      <nav class="nav" id="nav">
+        <ul class="nav__list">
+          <li><a href="index.html" class="nav__link active">Início</a></li>
+          <li><a href="#areas" class="nav__link">Áreas</a></li>
+          <li><a href="#componentes" class="nav__link">Componentes</a></li>
+          <li><a href="sobre.html" class="nav__link">Sobre</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__bg">
+      <div class="hero__grid"></div>
+      <div class="hero__glow"></div>
+    </div>
+    <div class="container hero__content">
+      <span class="hero__badge">Projeto de Estudo</span>
+      <h1 class="hero__title">Robótica <span class="accent">Prática</span></h1>
+      <p class="hero__subtitle">
+        Explore o universo da robótica: desde os fundamentos de eletrônica e programação
+        até a construção de robôs autônomos e sistemas inteligentes.
+      </p>
+      <div class="hero__actions">
+        <a href="#areas" class="btn btn--primary">Explorar Áreas</a>
+        <a href="sobre.html" class="btn btn--outline">Sobre o Projeto</a>
+      </div>
+      <div class="hero__stats">
+        <div class="stat">
+          <span class="stat__num">4</span>
+          <span class="stat__label">Áreas</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num">10+</span>
+          <span class="stat__label">Tecnologias</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num">100%</span>
+          <span class="stat__label">Prático</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- O QUE É ROBÓTICA -->
+  <section class="section" id="intro">
+    <div class="container">
+      <div class="section__header">
+        <span class="tag">Fundamentos</span>
+        <h2>O que é <span class="accent">Robótica</span>?</h2>
+        <p>
+          Robótica é a ciência interdisciplinar que combina engenharia mecânica, eletrônica
+          e ciência da computação para projetar, construir e operar robôs. Presente em
+          indústrias, hospitais, lares e espaço sideral, a robótica transforma a maneira
+          como interagimos com o mundo.
+        </p>
+      </div>
+      <div class="pillars">
+        <div class="pillar">
+          <div class="pillar__icon">🔧</div>
+          <h3>Mecânica</h3>
+          <p>Estrutura física, juntas, engrenagens e sistemas de movimento que dão forma e mobilidade ao robô.</p>
+        </div>
+        <div class="pillar">
+          <div class="pillar__icon">⚡</div>
+          <h3>Eletrônica</h3>
+          <p>Circuitos, sensores, atuadores e microcontroladores que percebem e atuam sobre o ambiente.</p>
+        </div>
+        <div class="pillar">
+          <div class="pillar__icon">💻</div>
+          <h3>Programação</h3>
+          <p>Algoritmos e software que processam dados dos sensores e tomam decisões autônomas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ÁREAS -->
+  <section class="section section--dark" id="areas">
+    <div class="container">
+      <div class="section__header">
+        <span class="tag">Especialidades</span>
+        <h2>Áreas da <span class="accent">Robótica</span></h2>
+        <p>A robótica se divide em grandes áreas de aplicação, cada uma com desafios e tecnologias próprias.</p>
+      </div>
+      <div class="cards">
+        <div class="card">
+          <div class="card__icon">🏭</div>
+          <h3>Industrial</h3>
+          <p>Braços robóticos, soldagem automatizada, linhas de montagem e logística em fábricas.</p>
+          <ul class="card__list">
+            <li>CNC e manufatura aditiva</li>
+            <li>Robôs colaborativos (cobots)</li>
+            <li>Inspeção de qualidade</li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="card__icon">🚗</div>
+          <h3>Autônoma</h3>
+          <p>Veículos autônomos, drones e robôs móveis que navegam sem intervenção humana.</p>
+          <ul class="card__list">
+            <li>SLAM (mapeamento e localização)</li>
+            <li>Visão computacional</li>
+            <li>Planejamento de trajetória</li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="card__icon">🏥</div>
+          <h3>Médica</h3>
+          <p>Robótica cirúrgica, próteses inteligentes e sistemas de reabilitação assistida.</p>
+          <ul class="card__list">
+            <li>Cirurgia minimamente invasiva</li>
+            <li>Exoesqueletos</li>
+            <li>Robôs de telemedicina</li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="card__icon">🎓</div>
+          <h3>Educacional</h3>
+          <p>Kits didáticos, competições e plataformas para ensino de STEM desde o ensino básico.</p>
+          <ul class="card__list">
+            <li>Arduino e Raspberry Pi</li>
+            <li>LEGO Mindstorms</li>
+            <li>Olimpíada de Robótica</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPONENTES -->
+  <section class="section" id="componentes">
+    <div class="container">
+      <div class="section__header">
+        <span class="tag">Hardware</span>
+        <h2>Componentes <span class="accent">Essenciais</span></h2>
+        <p>Todo robô é construído a partir de blocos fundamentais que trabalham em conjunto.</p>
+      </div>
+      <div class="components">
+        <div class="component">
+          <div class="component__num">01</div>
+          <div class="component__body">
+            <h3>Microcontroladores</h3>
+            <p>O "cérebro" do robô. Processa entradas dos sensores e envia comandos aos atuadores.</p>
+            <div class="tags">
+              <span>Arduino</span><span>Raspberry Pi</span><span>ESP32</span>
+            </div>
+          </div>
+        </div>
+        <div class="component">
+          <div class="component__num">02</div>
+          <div class="component__body">
+            <h3>Sensores</h3>
+            <p>Captam informações do ambiente: distância, temperatura, luz, som, posição e muito mais.</p>
+            <div class="tags">
+              <span>Ultrassônico</span><span>Infravermelho</span><span>IMU</span>
+            </div>
+          </div>
+        </div>
+        <div class="component">
+          <div class="component__num">03</div>
+          <div class="component__body">
+            <h3>Atuadores</h3>
+            <p>Convertem sinais elétricos em movimento ou ação física no mundo real.</p>
+            <div class="tags">
+              <span>Servo Motor</span><span>Stepper</span><span>Solenoide</span>
+            </div>
+          </div>
+        </div>
+        <div class="component">
+          <div class="component__num">04</div>
+          <div class="component__body">
+            <h3>Programação</h3>
+            <p>Software que define o comportamento, autonomia e inteligência do robô.</p>
+            <div class="tags">
+              <span>Python</span><span>C++</span><span>ROS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <div class="container cta__inner">
+      <h2>Pronto para começar?</h2>
+      <p>Explore o projeto, aprenda os fundamentos e construa seu primeiro robô.</p>
+      <a href="sobre.html" class="btn btn--primary">Conhecer o Projeto</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span class="logo"><span class="logo__icon">⚙</span> Robótica <strong>Prática</strong></span>
+      <div class="footer__right">
+        <p>Projeto de estudo — Robótica e Eletrônica</p>
+        <p class="footer__author">Desenvolvido por <strong>Leandro Oliveira Moraes</strong></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="fixedmenu.js"></script>
+  <script src="responsivemenu.js"></script>
+</body>
+</html>
