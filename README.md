@@ -2,6 +2,8 @@
 
 Site estático sobre robótica — fundamentos, áreas de aplicação, componentes essenciais e roteiro de aprendizado.
 
+![Tela inicial](public_html/screenshot.png)
+
 ## Páginas
 
 | Página | Descrição |
