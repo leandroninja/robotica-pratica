@@ -410,6 +410,8 @@ body {
   gap: 12px;
 }
 .footer__inner p { color: var(--muted); font-size: .85rem; }
+.footer__right   { text-align: right; }
+.footer__author strong { color: var(--accent); }
 
 /* ── Page Hero (sobre.html) ───────────────────────────────────────────────── */
 .page-hero {
